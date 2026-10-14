@@ -1,0 +1,11 @@
+# Render runtime dependencies for the existing FastAPI MVP.
+# Intentionally excludes the optional GPU/deep-learning and heavy geospatial
+# stack from backend/requirements.txt. Existing source files are untouched.
+numpy>=1.26,<3
+pandas>=2.2,<3
+scipy>=1.12,<2
+pyyaml>=6.0,<7
+scikit-learn>=1.4,<2
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29,<1
+pydantic>=2.6,<3
